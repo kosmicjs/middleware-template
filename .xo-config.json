@@ -1,0 +1,24 @@
+{
+  "prettier": true,
+  "parserOptions": {
+    "project": "./tsconfig.xo.json"
+  },
+  "rules": {
+    "@typescript-eslint/prefer-nullish-coalescing": "off",
+    "@typescript-eslint/naming-convention": "off",
+    "@typescript-eslint/consistent-type-definitions": "off",
+    "@typescript-eslint/promise-function-async": "off",
+    "@typescript-eslint/no-floating-promises": "off",
+    "@typescript-eslint/ban-types": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "unicorn/prefer-module": "off",
+    "import/extensions": "off",
+    "capitalized-comments": "off",
+    "unicorn/no-array-reduce": "off",
+    "no-warning-comments": "off",
+    "max-depth": "off",
+    "complexity": "off",
+    "no-multi-assign": "off",
+    "accessor-pairs": "error"
+  }
+}
