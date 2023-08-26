@@ -80,14 +80,6 @@
     ],
     "verbose": true
   },
-  "jest": {
-    "testEnvironment": "node",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/dist/",
-      "/.history/"
-    ]
-  },
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
@@ -96,6 +88,7 @@
     "@types/node": "~20.5.1",
     "ava": "^5.3.1",
     "husky": "^8.0.3",
+    "koa": "file:../koa",
     "lint-staged": "^14.0.0",
     "npm-package-json-lint": "^7.0.0",
     "npm-package-json-lint-config-default": "^6.0.0",
